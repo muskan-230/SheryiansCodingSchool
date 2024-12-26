@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(white,#c45f00,#633a00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+}
+.card1{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow: hidden;
+    
+}
+
+button{
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+button:active{
+    scale: 0.8;
+}
+
+.card1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
